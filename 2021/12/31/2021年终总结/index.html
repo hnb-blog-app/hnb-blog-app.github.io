@@ -1,0 +1,461 @@
+
+
+<!DOCTYPE html>
+<html lang="zh" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://thirdqq.qlogo.cn/g?b=sdk&amp;k=gCZ3PduqVaZQlw2zbUIb8g&amp;s=640">
+  <link rel="icon" href="https://thirdqq.qlogo.cn/g?b=sdk&amp;k=gCZ3PduqVaZQlw2zbUIb8g&amp;s=640">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="孙悟空">
+  <meta name="keywords" content="孙悟空,sunwukong,web前端开发,web前端博客,前端框架,个人博客模板,个人博客搭建,html,css,html5,javascript,jquery,vue.js,Node.js,koa">
+  
+    <meta name="description" content="导语本来呢，我博客的文章都是基本二三天一更新，但这两天呢，也不知道怎么回事，在学校的时候总是莫名其妙过于想念家，虽然清早来晚上回去，但一天多少还是可以回家的，但还是有时忍不住思家，导致呢，晚上回来，就非常珍惜在家的一分一秒，也没顾着博客什么一类的，有时中午、晚上吃饭的时候也没什么口味，还有点恶心，这可能是前几天输液引起的吧，说是输液之后会导致肠胃功能紊乱，从昨天开始，已经在服用相关症状的药物了…">
+  
+  
+  <title>2021年终总结 - 孙悟空博客 - 关注前端&amp;记录生活的个人博客网站</title>
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/5.1.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/hint.css/2.7.0/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/vs2015.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+  
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"sunwkong.cn","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"|","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":null,"onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"baidu":"9a85b93cef72ad5442d54bb896c20241","google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/atom.xml"};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="孙悟空博客 - 关注前端&记录生活的个人博客网站" type="application/atom+xml">
+</head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>孙悟空博客</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                文章
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" 
+         style="background: url('https://wkphoto.cdn.bcebos.com/500fd9f9d72a6059dc4993793834349b033bba7c.jpg') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="2021年终总结">
+              
+            </span>
+
+            
+              <div class="mt-3">
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-author" aria-hidden="true"></i>
+      孙悟空
+    </span>
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2021-12-31 00:00" pubdate>
+        December 31, 2021 am
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      1.5k 字
+    </span>
+  
+
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      13 分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">2021年终总结</h1>
+            
+            <div class="markdown-body">
+              <h2 id="导语"><a href="#导语" class="headerlink" title="导语"></a>导语</h2><p>本来呢，我博客的文章都是基本二三天一更新，但这两天呢，也不知道怎么回事，在学校的时候总是莫名其妙过于想念家，虽然清早来晚上回去，但一天多少还是可以回家的，但还是有时忍不住思家，导致呢，晚上回来，就非常珍惜在家的一分一秒，也没顾着博客什么一类的，有时中午、晚上吃饭的时候也没什么口味，还有点恶心，这可能是前几天输液引起的吧，说是输液之后会导致肠胃功能紊乱，从昨天开始，已经在服用相关症状的药物了…</p>
+<span id="more"></span>
+<p>说到2021总结，友链的一些大佬已经前几天都写好了，像栀子，我也不想写那么早，就今天写。元旦呢，按理说是放假三天，但好像根据我们学校的安排，是放假两天补课1天，但好像又因为县里疫情防控的相关要求，说是放假三天，但是作业量也是随之增加…我们洛阳市好像是新安县吧有一家4个人无症状病例，也是上了今天的百度热搜榜。</p>
+<h2 id="回首2021"><a href="#回首2021" class="headerlink" title="回首2021"></a>回首2021</h2><p>回首这一年，可能平常不注重把一些事情写下来，总结的时候，也不知道从哪入手。但多少，那些难忘的还是记得的。今年是牛年，说是牛气冲天，屏幕前的你，今年定的目标实现了吗？春晚彷佛还是昨天，不知不觉，已经是今年的最后一天了。我慢慢的想，今年也是有让人伤心的事情，从小到大，那个一直耳熟能详，以为能永远陪伴在我们身边的袁隆平爷爷，在今年5月22日下午13:07分在湖南长沙逝世，长沙民众在路上送别袁隆平爷爷，喊着”袁爷爷，一路走好”，”北京百姓十里长街送周总理，这件事，我只在历史书上看过，但这次长沙百姓长街送袁隆平爷爷…”。各大视频平台发视频题目为”巨星陨落，天地震动”。</p>
+<p>还有一部电视剧叫《大秦赋》，讲述了秦始皇统一六国的事迹，咱也是在里面汲取了不少知识，还清晰记得大秦丞相吕不韦自尽的一集的独白：<br>“公元前235年，秦王政十二年，吕不韦，自尽于封地洛阳，吕不韦主政秦国十三载，力扶两代秦王，赦功臣，灭东周，引进人才，兴修水利，为秦王政一统天下打下了坚实基础，他编纂的《吕氏春秋》集诸子之长，博大精深，流传至今”<br>还有一部今年很火的叫《觉醒年代》，但我没怎么看…</p>
+<p>我博客于今年7月20日上线，其实在这之前，2020年应该都已建立了，但是中间瞎折腾，最后屁也没折腾到，但不搞个人博客，又总想把一些事情记录在某个地方，微信QQ朋友圈不是最佳选择，所以，咱就建个博客，好好的记录。还是那句话，本人现在用的这个虚拟主机，虽然可以白嫖到明年六七月份，但容量只有500MB，一些php函数还是被禁止的，可能随便上传几个视频，容量就满了。导致wordpress体验不能达到最佳，速度还是可以的，当然，咱不排除更换为腾讯服务器的可能。</p>
+<p>今年升班的时候，又重新分班了，对以前的老师啊什么的也是比较怀念，但也没办法。暂时就回想到这里了…</p>
+<h2 id="展望2022"><a href="#展望2022" class="headerlink" title="展望2022"></a>展望2022</h2><p>今晚一过，将开启新的篇章，一切的一切都将画上一个句号，2022，对本人来说也是比较有意义的，它将有个本人人生道路上的一个岔道口，懂得相信自然懂。北京冬奥会也将如期举办，像《王牌对王牌》也相信过不了多久就有新的一季了，相信今天晚上7点左右，国家主席习近平该发表2022新年贺词了，这已是主席连续8年发表新年贺词了，咱也是非常的期待，一切的一切将书写新的故事，而我们就是这本故事的执笔者…<br>我有两个梦，一个是成为知名公司的程序员，另一个是，成为一名外交官，因为啊，看到我国外交部新闻发言人在对一些问题的回复时，总是心潮澎湃，我也坚信，这两个梦也将作为我2022努力奋斗的强大精神动力，成为指引我前进的灯塔。中考，努力拼搏，拼过就无悔！！<br>希望当写2022总结的时候，希望看2021总结最后的立志没有什么后悔。最后，祝愿我们强大的国家更加富强，让我们一起相约2022北京冬奥会现场见！央视春晚舞台见！…明年再见了！！</p>
+
+            </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                
+              </div>
+              
+                <p class="note note-warning">
+                  
+                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
+                  
+                </p>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2022/01/04/%E4%B8%8A%E7%BD%91%E8%AF%BE%E4%BA%86/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">上网课了</span>
+                        <span class="visible-mobile">Previous</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2021/12/20/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%8F%AD%E8%81%94/">
+                        <span class="hidden-mobile">记一次班联</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;TOC</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <p>网站支持:<a href="/atom.xml" target="_blank">RSS</a> <p>&copy;&nbsp;Copyright 2021.07.20 - 2022 孙悟空博客 all rights are served.</p> 
+  </div>
+  
+
+  
+
+  
+</footer>
+
+
+  <!-- SCRIPTS -->
+  
+  <script  src="https://cdn.bootcdn.net/ajax/libs/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.staticfile.org/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://cdn.staticfile.org/bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+  
+    <script  src="https://cdn.staticfile.org/tocbot/4.18.0/tocbot.min.js" ></script>
+  
+  
+    <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+  
+  
+    <script  src="https://cdn.staticfile.org/anchor.js/1.0.6/anchor.min.js" ></script>
+  
+  
+    <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.9/clipboard.min.js" ></script>
+  
+
+
+
+
+
+
+  <script  src="https://cdn.bootcdn.net/ajax/libs/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+        typing(title);
+      
+    })(window, document);
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <!-- Baidu Analytics -->
+    <script defer>
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?9a85b93cef72ad5442d54bb896c20241";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+</body>
+</html>
